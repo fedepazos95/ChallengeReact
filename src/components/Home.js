@@ -22,7 +22,7 @@ class Home extends Component {
                   <h2 className="center light-blue-text"><img src={"images/react.svg"} style={{width: 24+'px', height: 24+'px'}}/></h2>
                   <h5 className="center">React</h5>
 
-                  <p className="light">Developed with reusable components.</p>
+                  <p className="light center">Developed with reusable components.</p>
                 </div>
               </div>
 
@@ -31,7 +31,7 @@ class Home extends Component {
                   <h2 className="center light-blue-text"><img src={"images/redux.svg"} style={{width: 24+'px', height: 24+'px'}}/></h2>
                   <h5 className="center">Redux</h5>
 
-                  <p className="light">Using Redux to handle an state container.</p>
+                  <p className="light center">Using Redux to handle an state container.</p>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@ class Home extends Component {
                   <h2 className="center light-blue-text"><img src={"images/materialize.svg"} style={{width: 24+'px', height: 24+'px'}}/></h2>
                   <h5 className="center">Materialize</h5>
 
-                  <p className="light">Modern design with responsive support.</p>
+                  <p className="light center">Modern design with responsive support.</p>
                 </div>
               </div>
             </div>
