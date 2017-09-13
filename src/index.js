@@ -11,6 +11,10 @@ import AppRoutes from './routes';
 
 // Assets
 import 'materialize-css/dist/css/materialize.css';
+import 'materialize-css/dist/js/materialize.js';
+import react from './images/react.svg';
+import redux from './images/redux.svg';
+import materialize from './images/materialize.svg';
 
 // Redux store
 import configureStore from './lib/configureStore';

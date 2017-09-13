@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 // Actions
 import * as actions from './actions';
 
-// Utils
-import { isFirstRender } from '../../lib/utils/frontend';
+// Components
+import GamesList from '../../components/GamesList';
 
 class Games extends Component {
   static propTypes = {
@@ -26,7 +26,9 @@ class Games extends Component {
 
   render() {
     return (
-      <div>Games</div>
+      <div>
+        <GamesList games={this.props.games} width={90}/>
+      </div>
     );
   }
 }

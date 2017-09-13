@@ -70,8 +70,12 @@ const getLoaders = () => ({
       loader: 'url-loader?limit=10000&mimetype=image/svg+xml'
     },
     {
-      test: /\.(woff|woff2|eot|ttf|svg)$/,
+      test: /\.(woff|woff2|eot|ttf)$/,
       loader: 'file-loader?name=fonts/[name].[ext]'
+    },
+    {
+      test: /\.(svg)$/,
+      loader: 'file-loader?name=images/[name].[ext]'
     }
   ]
 });
