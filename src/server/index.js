@@ -6,7 +6,6 @@ import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import open from 'open';
 import exphbs from 'express-handlebars';
-import bodyParser from 'body-parser';
 
 // Config
 import config from '../config';
@@ -34,9 +33,6 @@ app.engine(config.views.engine, exphbs({
   extname: config.views.extension,
   helpers: hbsHelper
 }));
-
-// bodyParser
-app.use(bodyParser.json());
 
 // View Engine Setup
 app.set('views', path.join(__dirname, config.views.path));
