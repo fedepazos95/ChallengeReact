@@ -12,7 +12,7 @@ class GameItem extends Component {
 
     return (
       <div className="col s4">
-        <div className="card hoverable hide-on-med-and-down" style={{height: 265+'px'}}>
+        <div className="card hoverable hide-on-med-and-down">
           <div className="card-image waves-effect waves-block waves-light">
             <img className="activator" src={game.image}/>
           </div>
