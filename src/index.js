@@ -10,7 +10,6 @@ import { Provider } from 'react-redux';
 import AppRoutes from './routes';
 
 // Assets
-import './index.css';
 import 'materialize-css/dist/css/materialize.css';
 
 // Redux store

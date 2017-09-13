@@ -5,7 +5,7 @@ import express from 'express';
 const Router = express.Router();
 
 // Data
-import games from '../../data/games.json';
+import games from '../data/games.json';
 
 Router.get('/games', (req, res, next) => {
   res.json(games);

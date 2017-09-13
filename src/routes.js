@@ -2,9 +2,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-// Container
-import App from './containers/App';
-import Home from './containers/Home';
+// Components
+import App from './components/App';
+import Home from './components/Home';
+
+// Containers
 import Games from './containers/Games';
 
 const AppRoutes = () =>

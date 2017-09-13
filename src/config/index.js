@@ -8,8 +8,5 @@ export default {
     engine: '.hbs',
     extension: '.hbs',
     path: './views'
-  },
-  secret: "ngEurope rocks!",
-  audience: "nodejs-jwt-auth",
-  issuer: "https://gonto.com"
+  }
 };
