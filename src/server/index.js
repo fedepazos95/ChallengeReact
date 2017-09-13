@@ -63,6 +63,6 @@ app.get('*', (req, res) => {
 // Listen port 3000
 app.listen(config.serverPort, err => {
   if (!err) {
-    // open(`${config.baseUrl}`);
+    open(`${config.baseUrl}`);
   }
 });
