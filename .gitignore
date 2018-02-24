@@ -10,6 +10,3 @@ yarn-error.log*
 # bundles
 src/public/*.bundle.js
 .idea/
-
-# entidades
-src/server/api/entidades/lib

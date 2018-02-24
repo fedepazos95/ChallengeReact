@@ -4,7 +4,6 @@ import promiseMiddleware from 'redux-promise-middleware';
 import thunkMiddleware from 'redux-thunk';
 import reduxImmutableStateInvariant from 'redux-immutable-state-invariant';
 import { createStore, applyMiddleware, compose } from 'redux';
-import DevTools from '../containers/DevTools';
 
 const injectMiddleware = deps => ({ dispatch, getState }) => next => action =>
   next(typeof action === 'function'

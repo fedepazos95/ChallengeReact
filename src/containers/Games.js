@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 // Actions
-import * as actions from './actions';
+import * as actions from '../actions/games';
 
 // Components
-import GamesList from '../../components/GamesList';
+import GamesList from '../components/GamesList';
 
 class Games extends Component {
   static propTypes = {
@@ -34,5 +34,5 @@ class Games extends Component {
 }
 
 export default connect(state => ({
-  games: state.games.games
+  games: state.games
 }), actions)(Games);

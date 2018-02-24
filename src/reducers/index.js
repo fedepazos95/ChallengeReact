@@ -2,7 +2,7 @@
 import { combineReducers } from 'redux';
 
 // Apps Reducers
-import games from '../containers/Games/reducer';
+import games from './games';
 
 const rootReducer = combineReducers({
   games

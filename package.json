@@ -1,9 +1,8 @@
 {
-  "name": "hello-world-react",
+  "name": "challenge-react",
   "version": "0.1.0",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
-    "bluebird": "^3.5.0",
     "bootstrap": "^4.0.0-alpha.6",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",

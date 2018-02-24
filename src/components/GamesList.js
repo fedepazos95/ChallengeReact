@@ -13,17 +13,11 @@ class GamesList extends Component {
   render() {
     const { games, width } = this.props;
     return (
-      <div className="row" style={{width: width+'%'}}>
-        {games.length > 0 &&
-          <h4>{games.length} Games</h4>
-        }
-        {
-          games.map((game, key) => {
-            return (
-              <GameItem game={game} key={key} />
-            )
-          })
-        }
+      <div className="row" style={{ width: width + '%' }}>
+        {games.length > 0 && <h4>{games.length} Games</h4>}
+        {games.map((game, key) => {
+          return <GameItem game={game} key={key} />;
+        })}
       </div>
     );
   }

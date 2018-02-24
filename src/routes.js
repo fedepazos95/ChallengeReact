@@ -7,7 +7,7 @@ import App from './components/App';
 import Home from './components/Home';
 
 // Containers
-import Games from './containers/Games';
+import Games from './containers/Games.js';
 
 const AppRoutes = () =>
   <App>

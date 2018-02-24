@@ -3,8 +3,8 @@
 ### Getting Started
 
 ```
-> git clone https://fedepazos95@bitbucket.org/fedepazos95/ChallengeReact.git
-> cd delivery
+> git clone https://github.com/fedepazos95/ChallengeReact.git
+> cd ChallengeReact
 > npm install or yarn install
 > npm start or yarn start
 ```
